@@ -4,7 +4,7 @@ import "fmt"
 
 func bubbleSort(elements []int) []int {
 	lengthElements := len(elements)
-	for i := 0;i<lengthElements;i++{
+	for i := 0;i<lengthElements;i++ {
 		swapped := false
 		for j:= 0; j < lengthElements - i - 1;j++ {
 			fmt.Println("Start:",elements)
